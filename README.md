@@ -28,11 +28,11 @@ $('your_selector').each(function(index, element) {
 ```
 Calling WinLightBox to open specific link with dimension options.
 ```javascript
-$.winlightbox({href:"http://github.com",width:800,height:460});
+$.winLightBox({href:"http://github.com",width:800,height:460});
 ```
 Using WinLightBox inside the iframe to access the parent page.
 ```javascript
-parent.$.winlightbox({href:"http://github.com",width:800,height:460});
+parent.$.winLightBox({href:"http://github.com",width:800,height:460});
 ```
 
 ## Options
