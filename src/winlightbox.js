@@ -11,8 +11,8 @@
  */
 
 (function() {
+	
 	$.winLightBox = function(options) {
-		
 		var skip = false;
 		
 		if(options==null) skip = true;
@@ -34,7 +34,8 @@
 		
 		if(!skip) $().winLightBox(settings);
 	};
-    $.fn.winLightBox = function(settings) {
+	
+	$.fn.winLightBox = function(settings) {
 		$('#winlightbox-container').remove();
 		
 		this.data("href",this.prop("href"));
@@ -80,8 +81,6 @@
 				"height":win.height
 			});
 		}
-
-		
 
 		if(settings!=null){
 			win.href = settings.href;
