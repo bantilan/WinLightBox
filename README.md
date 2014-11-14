@@ -1,5 +1,5 @@
 ## What is WinLightBox?
-It is a jQuery tool that display iframe, images and videos in a LightBox, the content will float over the webpage content. The difference with WinLightBox to other lightbox plugin is that it will focus more on iFrame element on the start of the pre-development.
+It is a jQuery tool that display iframe, images and videos in a LightBox, the content will float over the webpage content. The difference with WinLightBox to other lightbox plugin is that it will focus more on iFrame element.
 
 ## Dependencies
 Required jQuery v1.11.1 or less (http://jquery.com/)
@@ -45,5 +45,6 @@ Here are all options that you can configure with the WinLightBox.
 	background:"#fff",
 	positionHorizontal:"center", // values: left, center, right
 	positionVertical:"center", // values: top, center, bottom
+	responsive:false // values: true, false
 }
 ```
