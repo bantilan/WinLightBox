@@ -10,9 +10,9 @@ Firefox, Google Chrome and IE 7+
 ## Usage
 On your head tag or elsewhere from your HTML, add the script tag
 ```html
-<script type="text/javascript" src="wincanvas.min.js"></script>
+<script type="text/javascript" src="winlightbox.js"></script>
 ```
-On your "&lt;a&gt;" tag use the example options to configure dimensions of the WinLightBox
+On your "&lt;a&gt;" tag use the example options to configure dimensions of the WinLightBox.
 ```html
 <a href="cobbler-popup-newsletter.php" data-width="800" data-height="460" class="winlightbox">WinLightBox Me!</a>
 ```

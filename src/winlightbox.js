@@ -47,6 +47,7 @@
 		win.click(function(){
 			win.create();
 			win.style();
+
 		});
 		
 
@@ -110,6 +111,7 @@
 			win.tmpWidth = settings.width;
 			win.tmpHeight = settings.height;
 			win.tmpPositionVertical = settings.positionVertical
+			alert(1);
 			win.create();
 		}else{
 			win.init = function(){
@@ -124,7 +126,9 @@
 				this.tmpWidth = this.width;
 				this.tmpHeight = this.height;
 				this.tmpPositionVertical = this.positionVertical;
+				
 			}
+			alert(1);
 			win.init();
 		}
 		
